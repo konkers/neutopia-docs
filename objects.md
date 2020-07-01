@@ -11,24 +11,31 @@
 | **`05`**  | ??    | Bombable door           |
 | **`06`**  | YX ID | Push block gated object |
 | **`07`**  | YX ID | Enemy gated object      |
-| **`0A`**  | ??    | Boss entrace door       |
+| **`09`**  |       | Dark room               |
+| **`0A`**  | ??    | Boss entrance door      |
 | **`C0`**  | YX ?? | Sword block swords      |
+| **`C1`**  | YX ?? | Ghost spawner           |
 | **`C6`**  | YX ?? | Fireball spawner        |
 
 ## Unknown codes
 
-## Chest prefix or conditional??
+### Chest prefix or conditional??
 
 `0b, 46, 2a, 04`
 
-- Area 4 Room 12 `00, 67, 51, 0b, 46, 2a, 04, 00, 67, 61`
+- Area 4 room 12 `00, 67, 51, 0b, 46, 2a, 04, 00, 67, 61`
 - Area 5 room 01 `00, 38, 50, 0b, 46, 2a, 08, 00, 38, 61`
+- Area 6 room 19 `00, 67, 50, 0b, 46, 2a, 10, 00, 67, 61`
+- Area 6 room 29 `00, 69, 51, 0b, 49, 2a, 02, 00, 69, 61`
 
-First chest room in each crypt?
-
-## Chained old man
+### Chained old man
 
 - Area 4 room 14 `e1, 48, 02, 00, 7d, 41, 56, 2e, 81, 01`
 - Area 5 room 14 `e1, 48, 02, 01, 81, 41, 57, 2e, 81, 01`
+- Area 6 room 24 `e1, 48, 02, 02, e5, 57, 58, 2e, 81, 01`
 
 The second byte (48) is the location of the old man
+
+## To verify
+
+- Is the c0 in area 6 rooms 14 and 1A a sword block?
