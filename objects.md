@@ -2,16 +2,18 @@
 
 ## Object table IDs
 
-| Object ID | Args  | Description           |
-| --------- | ----- | --------------------- |
-| **`00`**  | YX ID | Interactive Object    |
-| **`01`**  | DD    | Open door             |
-| **`02`**  | ??    | Push block gated door |
-| **`03`**  | DD    | Enemy gated door      |
-| **`05`**  | ??    | Bombable door         |
-| **`0A`**  | ??    | Boss entrace door     |
-| **`C0`**  | YX ?? | Sword block swords    |
-| **`C6`**  | YX ?? | Fireball spawner      |
+| Object ID | Args  | Description             |
+| --------- | ----- | ----------------------- |
+| **`00`**  | YX ID | Interactive Object      |
+| **`01`**  | DD    | Open door               |
+| **`02`**  | ??    | Push block gated door   |
+| **`03`**  | DD    | Enemy gated door        |
+| **`05`**  | ??    | Bombable door           |
+| **`06`**  | YX ID | Push block gated object |
+| **`07`**  | YX ID | Enemy gated object      |
+| **`0A`**  | ??    | Boss entrace door       |
+| **`C0`**  | YX ?? | Sword block swords      |
+| **`C6`**  | YX ?? | Fireball spawner        |
 
 ## Unknown codes
 
