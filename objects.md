@@ -15,6 +15,7 @@
 | **`09`**  |                      | Dark room               |
 | **`0A`**  | ??                   | Boss entrance door      |
 | **`0C`**  | YX ??                | Burnable object         |
+| **`0D`**  | ?? ??                | Hidden Room             |
 | **`81`**  |                      | Falcon boots required   |
 | **`9a`**  | YX ?? ?? ?? ??       | NPC                     |
 | **`BD`**  | YX ??                | Ouch rope segment       |
@@ -42,10 +43,6 @@
 - Area 6 room 24 `e1, 48, 02, 02, e5, 57, 58, 2e, 81, 01`
 
 The second byte (48) is the location of the old man
-
-### 0d
-
-`0d` is always followed by a two bytes. They are often the same.
 
 ### f4
 

@@ -51,7 +51,7 @@
 - dark room
 - object 0x26 @ (14,6)
 - object 0x44 @ (1,6)
-- unknown object 0x0d [ff, ff]
+- hidden room [ff, ff]
 
 ### Room 01
 
@@ -84,7 +84,7 @@
 - dark room
 - object 0x26 @ (7,10)
 - object 0x44 @ (8,2)
-- unknown object 0x0d [ff, ff]
+- hidden room [ff, ff]
 
 ### Room 02
 
@@ -494,7 +494,7 @@
 - push block gated object 0x24 @ (14,2)
 - push block gated door 0x00
 - bombable door 0x19
-- unknown object 0x0d [14, 14]
+- hidden room [14, 14]
 
 ### Room 0E
 
@@ -777,7 +777,7 @@
 - dark room
 - open door 0x02
 - object 0x24 @ (14,2)
-- unknown object 0x0d [14, 14]
+- hidden room [14, 14]
 
 ### Room 17
 
@@ -1149,7 +1149,7 @@
 - dark room
 - object 0x24 @ (1,10)
 - open door 0x00
-- unknown object 0x0d [14, 14]
+- hidden room [14, 14]
 
 ### Room 23
 
@@ -1215,7 +1215,7 @@
 - fireball spawner 0x00 @ (11,1)
 - boss door 0x68
 - object 0x24 @ (7,10)
-- unknown object 0x0d [14, 14]
+- hidden room [14, 14]
 
 ### Room 25
 

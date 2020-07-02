@@ -1365,7 +1365,7 @@
 
 - enemy gated door 0x08
 - object 0x26 @ (13,9)
-- unknown object 0x0d [38, ff]
+- hidden room [38, ff]
 
 ### Room 29
 
