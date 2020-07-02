@@ -924,6 +924,16 @@
 [bd, 68, 00, bd, 68, 00, bd, 68, 00, bd, 68, 00, bd, 68, 00, bd, 68, 00, 01, 00, 01, 03, 05, 1a]
 ```
 
+- ouch rope segment 0x00 @ (8,6)
+- ouch rope segment 0x00 @ (8,6)
+- ouch rope segment 0x00 @ (8,6)
+- ouch rope segment 0x00 @ (8,6)
+- ouch rope segment 0x00 @ (8,6)
+- ouch rope segment 0x00 @ (8,6)
+- open door 0x00
+- open door 0x03
+- bombable door 0x1a
+
 ### Room 1E
 
  ***(3, 6) @ 5345d***
@@ -1139,6 +1149,19 @@
 ```
 [00, 6e, 4e, 00, 63, 45, 00, 6c, 45, 00, 15, 47, bf, 15, 02, 00, 17, 47, bf, 17, 02, 00, 18, 47, bf, 18, 02, 00, 1a, 47, bf, 1a, 02, 01, 03]
 ```
+
+- object 0x4e @ (14,6)
+- object 0x45 @ (3,6)
+- object 0x45 @ (12,6)
+- object 0x47 @ (5,1)
+- arrow launcher 0x02 @ (5,1)
+- object 0x47 @ (7,1)
+- arrow launcher 0x02 @ (7,1)
+- object 0x47 @ (8,1)
+- arrow launcher 0x02 @ (8,1)
+- object 0x47 @ (10,1)
+- arrow launcher 0x02 @ (10,1)
+- open door 0x03
 
 ### Room 25
 

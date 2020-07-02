@@ -450,6 +450,16 @@
 [bd, 67, 00, bd, 67, 00, bd, 67, 00, bd, 67, 00, bd, 67, 00, bd, 67, 00, 01, 02, 01, 03, 01, 01]
 ```
 
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- open door 0x02
+- open door 0x03
+- open door 0x01
+
 ### Room 0E
 
  ***(1, 6) @ 538f6***
@@ -633,6 +643,45 @@
 ```
 [09, 05, 1b, 05, 19, 01, 02, 00, 63, 2b, 00, 6c, 2b, 00, 14, 47, bf, 14, 02, 00, 16, 47, bf, 16, 02, 00, 19, 47, bf, 19, 02, 00, 1b, 47, bf, 1b, 02, 00, 30, 46, bf, 30, 01, 00, 3f, 48, bf, 3f, 03, 00, 90, 46, bf, 90, 01, 00, 9f, 48, bf, 9f, 03, 00, 36, 45, 00, 39, 45, 00, 45, 45, 00, 47, 45, 00, 48, 45, 00, 4a, 45, 00, 54, 45, 00, 5b, 45, 00, 74, 45, 00, 7b, 45, 00, 85, 45, 00, 87, 45, 00, 88, 45, 00, 8a, 45, 00, 96, 45, 00, 99, 45]
 ```
+
+- dark room
+- bombable door 0x1b
+- bombable door 0x19
+- open door 0x02
+- object 0x2b @ (3,6)
+- object 0x2b @ (12,6)
+- object 0x47 @ (4,1)
+- arrow launcher 0x02 @ (4,1)
+- object 0x47 @ (6,1)
+- arrow launcher 0x02 @ (6,1)
+- object 0x47 @ (9,1)
+- arrow launcher 0x02 @ (9,1)
+- object 0x47 @ (11,1)
+- arrow launcher 0x02 @ (11,1)
+- object 0x46 @ (0,3)
+- arrow launcher 0x01 @ (0,3)
+- object 0x48 @ (15,3)
+- arrow launcher 0x03 @ (15,3)
+- object 0x46 @ (0,9)
+- arrow launcher 0x01 @ (0,9)
+- object 0x48 @ (15,9)
+- arrow launcher 0x03 @ (15,9)
+- object 0x45 @ (6,3)
+- object 0x45 @ (9,3)
+- object 0x45 @ (5,4)
+- object 0x45 @ (7,4)
+- object 0x45 @ (8,4)
+- object 0x45 @ (10,4)
+- object 0x45 @ (4,5)
+- object 0x45 @ (11,5)
+- object 0x45 @ (4,7)
+- object 0x45 @ (11,7)
+- object 0x45 @ (5,8)
+- object 0x45 @ (7,8)
+- object 0x45 @ (8,8)
+- object 0x45 @ (10,8)
+- object 0x45 @ (6,9)
+- object 0x45 @ (9,9)
 
 ### Room 14
 
@@ -1311,8 +1360,12 @@
 #### Object Table
 
 ```
-[03, 08, 00, 9d, 26, 0d, 38]
+[03, 08, 00, 9d, 26, 0d, 38, ff]
 ```
+
+- enemy gated door 0x08
+- object 0x26 @ (13,9)
+- unknown object 0x0d [38, ff]
 
 ### Room 29
 
@@ -1404,6 +1457,17 @@
 ```
 [bd, 67, 00, bd, 67, 00, bd, 67, 00, bd, 67, 00, bd, 67, 00, bd, 67, 00, 01, 00, 01, 02, 01, 03, 01, 01]
 ```
+
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- open door 0x00
+- open door 0x02
+- open door 0x03
+- open door 0x01
 
 ### Room 2C
 

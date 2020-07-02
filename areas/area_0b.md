@@ -45,8 +45,12 @@
 #### Object Table
 
 ```
-[00, 28, 26, 00, a7, 44, 0d]
+[00, 28, 26, 00, a7, 44, 0d, ff, ff]
 ```
+
+- object 0x26 @ (8,2)
+- object 0x44 @ (7,10)
+- unknown object 0x0d [ff, ff]
 
 ### Room 01
 
@@ -73,8 +77,12 @@
 #### Object Table
 
 ```
-[00, a8, 26, 00, 27, 44, 0d]
+[00, a8, 26, 00, 27, 44, 0d, ff, ff]
 ```
+
+- object 0x26 @ (8,10)
+- object 0x44 @ (7,2)
+- unknown object 0x0d [ff, ff]
 
 ### Room 02
 
@@ -101,8 +109,13 @@
 #### Object Table
 
 ```
-[09, 00, 6e, 26, 00, 61, 44, 0d]
+[09, 00, 6e, 26, 00, 61, 44, 0d, ff, ff]
 ```
+
+- dark room
+- object 0x26 @ (14,6)
+- object 0x44 @ (1,6)
+- unknown object 0x0d [ff, ff]
 
 ### Room 03
 
@@ -129,8 +142,12 @@
 #### Object Table
 
 ```
-[00, 6e, 26, 00, 61, 44, 0d]
+[00, 6e, 26, 00, 61, 44, 0d, ff, ff]
 ```
+
+- object 0x26 @ (14,6)
+- object 0x44 @ (1,6)
+- unknown object 0x0d [ff, ff]
 
 ### Room 04
 
@@ -157,8 +174,12 @@
 #### Object Table
 
 ```
-[00, 27, 26, 00, a8, 44, 0d]
+[00, 27, 26, 00, a8, 44, 0d, ff, ff]
 ```
+
+- object 0x26 @ (7,2)
+- object 0x44 @ (8,10)
+- unknown object 0x0d [ff, ff]
 
 ### Room 05
 
@@ -185,8 +206,12 @@
 #### Object Table
 
 ```
-[00, 61, 26, 00, 6e, 44, 0d]
+[00, 61, 26, 00, 6e, 44, 0d, ff, ff]
 ```
+
+- object 0x26 @ (1,6)
+- object 0x44 @ (14,6)
+- unknown object 0x0d [ff, ff]
 
 ### Room 06
 
@@ -244,6 +269,10 @@
 ```
 [00, 28, 4c, 00, 98, 26, 0d, 07, 07]
 ```
+
+- object 0x4c @ (8,2)
+- object 0x26 @ (8,9)
+- unknown object 0x0d [7, 7]
 
 ### Room 08
 
@@ -869,6 +898,9 @@
 [09, 0d, 1c, 1c]
 ```
 
+- dark room
+- unknown object 0x0d [1c, 1c]
+
 ### Room 1C
 
  ***(3, 4) @ 54f0e***
@@ -897,6 +929,11 @@
 [e1, 28, 02, 10, 5c, 79, 5d, 2e, 81, 01, 03, 06, 00, 27, 24, 0d, 1c, 1c]
 ```
 
+- unknown object 0xe1 [28, 2, 10, 5c, 79, 5d, 2e, 81, 1]
+- enemy gated door 0x06
+- object 0x24 @ (7,2)
+- unknown object 0x0d [1c, 1c]
+
 ### Room 1D
 
  ***(3, 5) @ 54f30***
@@ -924,6 +961,14 @@
 ```
 [09, 00, 65, 2c, 00, 6a, 2a, c0, 6a, 00, 02, 00, 00, a7, 24, 0d, 1c, 1c]
 ```
+
+- dark room
+- object 0x2c @ (5,6)
+- object 0x2a @ (10,6)
+- swords 0x00 @ (10,6)
+- push block gated door 0x00
+- object 0x24 @ (7,10)
+- unknown object 0x0d [1c, 1c]
 
 ### Room 1E
 
@@ -1055,6 +1100,27 @@
 [09, 00, 34, 2a, 00, 3b, 2a, 00, 46, 2a, c0, 46, 00, 00, 49, 2a, c0, 49, 00, 00, 53, 2a, 00, 5c, 2a, 00, 73, 2a, 00, 7c, 2a, 00, 86, 2a, c0, 86, 00, 00, 89, 2a, c0, 89, 00, 00, 94, 2a, 00, 9b, 2c, 01, 01, 06, 32, 24, 0d, 1c, 1c]
 ```
 
+- dark room
+- object 0x2a @ (4,3)
+- object 0x2a @ (11,3)
+- object 0x2a @ (6,4)
+- swords 0x00 @ (6,4)
+- object 0x2a @ (9,4)
+- swords 0x00 @ (9,4)
+- object 0x2a @ (3,5)
+- object 0x2a @ (12,5)
+- object 0x2a @ (3,7)
+- object 0x2a @ (12,7)
+- object 0x2a @ (6,8)
+- swords 0x00 @ (6,8)
+- object 0x2a @ (9,8)
+- swords 0x00 @ (9,8)
+- object 0x2a @ (4,9)
+- object 0x2c @ (11,9)
+- open door 0x01
+- push block gated object 0x24 @ (2,3)
+- unknown object 0x0d [1c, 1c]
+
 ### Room 22
 
  ***(4, 2) @ 54ffa***
@@ -1082,6 +1148,13 @@
 ```
 [09, 03, 00, 03, 01, 03, 03, 07, 9d, 24, 0d, 1c, 1c]
 ```
+
+- dark room
+- enemy gated door 0x00
+- enemy gated door 0x01
+- enemy gated door 0x03
+- enemy gated object 0x24 @ (13,9)
+- unknown object 0x0d [1c, 1c]
 
 ### Room 23
 
@@ -1179,6 +1252,13 @@
 [09, 00, 48, 2c, 06, 92, 24, 01, 01, 05, 1a, 0d, 1c, 1c]
 ```
 
+- dark room
+- object 0x2c @ (8,4)
+- push block gated object 0x24 @ (2,9)
+- open door 0x01
+- bombable door 0x1a
+- unknown object 0x0d [1c, 1c]
+
 ### Room 26
 
  ***(4, 6) @ 55093***
@@ -1240,6 +1320,13 @@
 [09, 00, 43, 4f, 0b, 47, 2a, 02, 00, 43, 61, 00, 9d, 24, 0d, 1c, 1c]
 ```
 
+- dark room
+- object 0x4f @ (3,4)
+- unknown object 0x0b [47, 2a, 2]
+- object 0x61 @ (3,4)
+- object 0x24 @ (13,9)
+- unknown object 0x0d [1c, 1c]
+
 ### Room 28
 
  ***(5, 0) @ 550e7***
@@ -1297,6 +1384,15 @@
 [09, 00, 43, 2a, 00, 83, 2a, 00, 4c, 2a, 00, 8c, 2b, 07, 9d, 24, 03, 02, 0d, 1c, 1c]
 ```
 
+- dark room
+- object 0x2a @ (3,4)
+- object 0x2a @ (3,8)
+- object 0x2a @ (12,4)
+- object 0x2b @ (12,8)
+- enemy gated object 0x24 @ (13,9)
+- enemy gated door 0x02
+- unknown object 0x0d [1c, 1c]
+
 ### Room 2A
 
  ***(5, 2) @ 55126***
@@ -1324,6 +1420,11 @@
 ```
 [09, 00, 32, 4e, 00, 9d, 24, 0d, 1c, 1c]
 ```
+
+- dark room
+- object 0x4e @ (2,3)
+- object 0x24 @ (13,9)
+- unknown object 0x0d [1c, 1c]
 
 ### Room 2B
 
@@ -1384,6 +1485,17 @@
 ```
 [09, 00, 14, 4a, c6, 14, 00, 00, 1b, 4a, c6, 1b, 00, 00, 92, 2a, c0, 92, 00, 00, 9d, 24, 0a, 68, 0d, 1c, 1c]
 ```
+
+- dark room
+- object 0x4a @ (4,1)
+- fireball spawner 0x00 @ (4,1)
+- object 0x4a @ (11,1)
+- fireball spawner 0x00 @ (11,1)
+- object 0x2a @ (2,9)
+- swords 0x00 @ (2,9)
+- object 0x24 @ (13,9)
+- boss door 0x68
+- unknown object 0x0d [1c, 1c]
 
 ### Room 2D
 
@@ -1447,6 +1559,12 @@
 [09, 00, 77, 2a, 07, 78, 24, 05, 18, 0d, 1c, 1c]
 ```
 
+- dark room
+- object 0x2a @ (7,7)
+- enemy gated object 0x24 @ (8,7)
+- bombable door 0x18
+- unknown object 0x0d [1c, 1c]
+
 ### Room 2F
 
  ***(5, 7) @ 551f1***
@@ -1474,6 +1592,12 @@
 ```
 [09, 01, 02, 07, 93, 24, 07, 9c, 25, 0d, 1c, 1c]
 ```
+
+- dark room
+- open door 0x02
+- enemy gated object 0x24 @ (3,9)
+- enemy gated object 0x25 @ (12,9)
+- unknown object 0x0d [1c, 1c]
 
 ### Room 30
 
@@ -1563,6 +1687,24 @@
 ```
 [09, 01, 01, 00, 32, 2a, 00, 92, 2c, 02, 03, bd, 37, 00, bd, 37, 00, bd, 37, 00, bd, 37, 00, bd, 37, 00, bd, 37, 00, bd, 87, 00, bd, 87, 00, bd, 87, 00, bd, 87, 00, bd, 87, 00, bd, 87, 00]
 ```
+
+- dark room
+- open door 0x01
+- object 0x2a @ (2,3)
+- object 0x2c @ (2,9)
+- push block gated door 0x03
+- ouch rope segment 0x00 @ (7,3)
+- ouch rope segment 0x00 @ (7,3)
+- ouch rope segment 0x00 @ (7,3)
+- ouch rope segment 0x00 @ (7,3)
+- ouch rope segment 0x00 @ (7,3)
+- ouch rope segment 0x00 @ (7,3)
+- ouch rope segment 0x00 @ (7,8)
+- ouch rope segment 0x00 @ (7,8)
+- ouch rope segment 0x00 @ (7,8)
+- ouch rope segment 0x00 @ (7,8)
+- ouch rope segment 0x00 @ (7,8)
+- ouch rope segment 0x00 @ (7,8)
 
 ### Room 33
 

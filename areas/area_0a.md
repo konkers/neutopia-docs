@@ -45,8 +45,13 @@
 #### Object Table
 
 ```
-[09, 00, 6e, 26, 00, 61, 44, 0d]
+[09, 00, 6e, 26, 00, 61, 44, 0d, ff, ff]
 ```
+
+- dark room
+- object 0x26 @ (14,6)
+- object 0x44 @ (1,6)
+- unknown object 0x0d [ff, ff]
 
 ### Room 01
 
@@ -73,8 +78,12 @@
 #### Object Table
 
 ```
-[00, 6e, 26, 00, 61, 44, 0d]
+[00, 6e, 26, 00, 61, 44, 0d, ff, ff]
 ```
+
+- object 0x26 @ (14,6)
+- object 0x44 @ (1,6)
+- unknown object 0x0d [ff, ff]
 
 ### Room 02
 
@@ -876,6 +885,13 @@
 [09, 00, 67, 24, 00, 55, 2b, 00, 65, 2b, 01, 00, 0d, 08, 08]
 ```
 
+- dark room
+- object 0x24 @ (7,6)
+- object 0x2b @ (5,5)
+- object 0x2b @ (5,6)
+- open door 0x00
+- unknown object 0x0d [8, 8]
+
 ### Room 1B
 
  ***(3, 3) @ 547cc***
@@ -941,6 +957,30 @@
 [09, 01, 03, 01, 01, 00, 14, 47, bf, 14, 02, 00, 15, 47, bf, 15, 02, 00, 17, 47, bf, 17, 02, 00, 18, 47, bf, 18, 02, 00, 1a, 47, bf, 1a, 02, 00, 1b, 47, bf, 1b, 02, 00, 30, 46, bf, 30, 01, 00, 3f, 48, bf, 3f, 03, 00, 80, 46, bf, 80, 01, 00, 8f, 48, bf, 8f, 03]
 ```
 
+- dark room
+- open door 0x03
+- open door 0x01
+- object 0x47 @ (4,1)
+- arrow launcher 0x02 @ (4,1)
+- object 0x47 @ (5,1)
+- arrow launcher 0x02 @ (5,1)
+- object 0x47 @ (7,1)
+- arrow launcher 0x02 @ (7,1)
+- object 0x47 @ (8,1)
+- arrow launcher 0x02 @ (8,1)
+- object 0x47 @ (10,1)
+- arrow launcher 0x02 @ (10,1)
+- object 0x47 @ (11,1)
+- arrow launcher 0x02 @ (11,1)
+- object 0x46 @ (0,3)
+- arrow launcher 0x01 @ (0,3)
+- object 0x48 @ (15,3)
+- arrow launcher 0x03 @ (15,3)
+- object 0x46 @ (0,8)
+- arrow launcher 0x01 @ (0,8)
+- object 0x48 @ (15,8)
+- arrow launcher 0x03 @ (15,8)
+
 ### Room 1D
 
  ***(3, 5) @ 5484e***
@@ -1002,6 +1042,13 @@
 ```
 [09, 00, 67, 24, 00, 55, 2b, 00, 65, 2b, 05, 18, 0d, 08, 08]
 ```
+
+- dark room
+- object 0x24 @ (7,6)
+- object 0x2b @ (5,5)
+- object 0x2b @ (5,6)
+- bombable door 0x18
+- unknown object 0x0d [8, 8]
 
 ### Room 1F
 
@@ -1119,6 +1166,11 @@
 ```
 [e1, 48, 02, 01, 54, 79, 5c, 2e, 81, 01, 01, 02, 00, 9d, 24, 0d, 08, 08]
 ```
+
+- unknown object 0xe1 [48, 2, 1, 54, 79, 5c, 2e, 81, 1]
+- open door 0x02
+- object 0x24 @ (13,9)
+- unknown object 0x0d [8, 8]
 
 ### Room 23
 
@@ -1483,6 +1535,18 @@
 [00, 45, 4b, c6, 45, 00, 00, 4a, 4b, c6, 4a, 00, 00, 85, 4b, c6, 85, 00, 00, 8a, 4b, c6, 8a, 00, 01, 03, 00, 67, 24, 0d, 08, 08]
 ```
 
+- object 0x4b @ (5,4)
+- fireball spawner 0x00 @ (5,4)
+- object 0x4b @ (10,4)
+- fireball spawner 0x00 @ (10,4)
+- object 0x4b @ (5,8)
+- fireball spawner 0x00 @ (5,8)
+- object 0x4b @ (10,8)
+- fireball spawner 0x00 @ (10,8)
+- open door 0x03
+- object 0x24 @ (7,6)
+- unknown object 0x0d [8, 8]
+
 ### Room 2E
 
  ***(5, 6) @ 54a4b***
@@ -1666,6 +1730,17 @@
 ```
 [09, 01, 00, 01, 01, bd, 67, 00, bd, 67, 00, bd, 67, 00, bd, 67, 00, bd, 67, 00, bd, 67, 00, 05, 1b]
 ```
+
+- dark room
+- open door 0x00
+- open door 0x01
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- ouch rope segment 0x00 @ (7,6)
+- bombable door 0x1b
 
 ### Room 34
 
