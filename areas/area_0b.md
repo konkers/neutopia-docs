@@ -216,6 +216,7 @@
 []
 ```
 
+
 ### Room 07
 
  ***(0, 7) @ 54cec***
@@ -272,6 +273,7 @@
 []
 ```
 
+
 ### Room 09
 
  ***(1, 1) @ 54d10***
@@ -299,6 +301,7 @@
 ```
 []
 ```
+
 
 ### Room 0A
 
@@ -328,6 +331,7 @@
 []
 ```
 
+
 ### Room 0B
 
  ***(1, 3) @ 54d26***
@@ -355,6 +359,7 @@
 ```
 []
 ```
+
 
 ### Room 0C
 
@@ -384,6 +389,7 @@
 []
 ```
 
+
 ### Room 0D
 
  ***(1, 5) @ 54d3c***
@@ -411,6 +417,7 @@
 ```
 []
 ```
+
 
 ### Room 0E
 
@@ -440,6 +447,16 @@
 [09, 00, 47, 2a, c0, 47, 00, 00, 48, 2a, c0, 48, 00, 00, 27, 52, 0b, 49, 2a, 20, 00, 27, 61, 05, 1a]
 ```
 
+- dark room
+- object 0x2a @ (7,4)
+- swords 0x00 @ (7,4)
+- object 0x2a @ (8,4)
+- swords 0x00 @ (8,4)
+- object 0x52 @ (7,2)
+- unknown object 0x0b [49, 2a, 20]
+- object 0x61 @ (7,2)
+- bombable door 0x1a
+
 ### Room 0F
 
  ***(1, 7) @ 54d71***
@@ -467,6 +484,7 @@
 ```
 []
 ```
+
 
 ### Room 10
 
@@ -496,6 +514,7 @@
 []
 ```
 
+
 ### Room 11
 
  ***(2, 1) @ 54d87***
@@ -523,6 +542,9 @@
 ```
 [05, 19, e1, 48, 02, 01, e9, 79, 47, 2a, 08, 01]
 ```
+
+- bombable door 0x19
+- unknown object 0xe1 [48, 2, 1, e9, 79, 47, 2a, 8, 1]
 
 ### Room 12
 
@@ -552,6 +574,9 @@
 [05, 1d, 05, 1f]
 ```
 
+- bombable door 0x1d
+- bombable door 0x1f
+
 ### Room 13
 
  ***(2, 3) @ 54db3***
@@ -579,6 +604,11 @@
 ```
 [09, 03, 01, 05, 1a, 05, 1b]
 ```
+
+- dark room
+- enemy gated door 0x01
+- bombable door 0x1a
+- bombable door 0x1b
 
 ### Room 14
 
@@ -608,6 +638,22 @@
 [09, 00, 46, 2a, c0, 46, 00, 00, 49, 2a, c0, 49, 00, 00, 63, 2c, 00, 67, 2a, 00, 68, 2a, 00, 6c, 2a, 00, 86, 2a, c0, 86, 00, 00, 89, 2a, c0, 89, 00, 01, 01, 02, 03]
 ```
 
+- dark room
+- object 0x2a @ (6,4)
+- swords 0x00 @ (6,4)
+- object 0x2a @ (9,4)
+- swords 0x00 @ (9,4)
+- object 0x2c @ (3,6)
+- object 0x2a @ (7,6)
+- object 0x2a @ (8,6)
+- object 0x2a @ (12,6)
+- object 0x2a @ (6,8)
+- swords 0x00 @ (6,8)
+- object 0x2a @ (9,8)
+- swords 0x00 @ (9,8)
+- open door 0x01
+- push block gated door 0x03
+
 ### Room 15
 
  ***(2, 5) @ 54e20***
@@ -635,6 +681,14 @@
 ```
 [09, 00, 21, 4b, c6, 21, 00, 00, 2e, 4b, c6, 2e, 00, 01, 02, 01, 03]
 ```
+
+- dark room
+- object 0x4b @ (1,2)
+- fireball spawner 0x00 @ (1,2)
+- object 0x4b @ (14,2)
+- fireball spawner 0x00 @ (14,2)
+- open door 0x02
+- open door 0x03
 
 ### Room 16
 
@@ -664,6 +718,9 @@
 [05, 1c, 05, 1e]
 ```
 
+- bombable door 0x1c
+- bombable door 0x1e
+
 ### Room 17
 
  ***(2, 7) @ 54e51***
@@ -691,6 +748,7 @@
 ```
 []
 ```
+
 
 ### Room 18
 
@@ -720,6 +778,7 @@
 []
 ```
 
+
 ### Room 19
 
  ***(3, 1) @ 54e67***
@@ -748,6 +807,7 @@
 []
 ```
 
+
 ### Room 1A
 
  ***(3, 2) @ 54e72***
@@ -775,6 +835,11 @@
 ```
 [01, 02, 00, 47, 50, 0b, 47, 2a, 04, 00, 47, 61]
 ```
+
+- open door 0x02
+- object 0x50 @ (7,4)
+- unknown object 0x0b [47, 2a, 4]
+- object 0x61 @ (7,4)
 
 ### Room 1B
 
@@ -888,6 +953,22 @@
 [09, 00, 15, 4a, c6, 15, 00, 00, 1a, 4a, c6, 1a, 00, 00, 44, 2a, 00, 46, 2c, 00, 49, 2a, 00, 4b, 2a, 00, 84, 2a, 00, 86, 2a, 00, 89, 2a, 00, 8b, 2a, 02, 0a, 05, 18]
 ```
 
+- dark room
+- object 0x4a @ (5,1)
+- fireball spawner 0x00 @ (5,1)
+- object 0x4a @ (10,1)
+- fireball spawner 0x00 @ (10,1)
+- object 0x2a @ (4,4)
+- object 0x2c @ (6,4)
+- object 0x2a @ (9,4)
+- object 0x2a @ (11,4)
+- object 0x2a @ (4,8)
+- object 0x2a @ (6,8)
+- object 0x2a @ (9,8)
+- object 0x2a @ (11,8)
+- push block gated door 0x0a
+- bombable door 0x18
+
 ### Room 1F
 
  ***(3, 7) @ 54f92***
@@ -916,6 +997,7 @@
 []
 ```
 
+
 ### Room 20
 
  ***(4, 0) @ 54f9d***
@@ -943,6 +1025,7 @@
 ```
 []
 ```
+
 
 ### Room 21
 
@@ -1028,6 +1111,15 @@
 [09, 00, 66, 49, c1, 66, 00, 00, 4b, 2b, 00, 6b, 2b, 00, 8b, 2b, 03, 0b, 05, 1a]
 ```
 
+- dark room
+- object 0x49 @ (6,6)
+- ghost spawner 0x00 @ (6,6)
+- object 0x2b @ (11,4)
+- object 0x2b @ (11,6)
+- object 0x2b @ (11,8)
+- enemy gated door 0x0b
+- bombable door 0x1a
+
 ### Room 24
 
  ***(4, 4) @ 55045***
@@ -1055,6 +1147,9 @@
 ```
 [03, 60, 03, 62]
 ```
+
+- enemy gated door 0x60
+- enemy gated door 0x62
 
 ### Room 25
 
@@ -1112,6 +1207,11 @@
 [09, 01, 00, 01, 03, 05, 1a]
 ```
 
+- dark room
+- open door 0x00
+- open door 0x03
+- bombable door 0x1a
+
 ### Room 27
 
  ***(4, 7) @ 550b4***
@@ -1167,6 +1267,7 @@
 ```
 []
 ```
+
 
 ### Room 29
 
@@ -1252,6 +1353,10 @@
 [09, 05, 18, 00, 78, 51]
 ```
 
+- dark room
+- bombable door 0x18
+- object 0x51 @ (8,7)
+
 ### Room 2C
 
  ***(5, 4) @ 5516f***
@@ -1307,6 +1412,12 @@
 ```
 [09, 05, 18, 00, 68, 49, c1, 68, 00, 00, 98, 4d]
 ```
+
+- dark room
+- bombable door 0x18
+- object 0x49 @ (8,6)
+- ghost spawner 0x00 @ (8,6)
+- object 0x4d @ (8,9)
 
 ### Room 2E
 
@@ -1392,6 +1503,7 @@
 []
 ```
 
+
 ### Room 31
 
  ***(6, 1) @ 5521f***
@@ -1419,6 +1531,10 @@
 ```
 [09, 03, 00, 03, 01]
 ```
+
+- dark room
+- enemy gated door 0x00
+- enemy gated door 0x01
 
 ### Room 32
 
@@ -1476,6 +1592,10 @@
 [09, 01, 01, 01, 03]
 ```
 
+- dark room
+- open door 0x01
+- open door 0x03
+
 ### Room 34
 
  ***(6, 4) @ 55291***
@@ -1503,6 +1623,19 @@
 ```
 [00, 5c, 2c, 00, 55, 2a, c0, 55, 00, 00, 5a, 2a, c0, 5a, 00, 00, 75, 2a, c0, 75, 00, 00, 7a, 2a, c0, 7a, 00, 01, 03, 00, a7, 26, 02, 01]
 ```
+
+- object 0x2c @ (12,5)
+- object 0x2a @ (5,5)
+- swords 0x00 @ (5,5)
+- object 0x2a @ (10,5)
+- swords 0x00 @ (10,5)
+- object 0x2a @ (5,7)
+- swords 0x00 @ (5,7)
+- object 0x2a @ (10,7)
+- swords 0x00 @ (10,7)
+- open door 0x03
+- object 0x26 @ (7,10)
+- push block gated door 0x01
 
 ### Room 35
 
@@ -1532,6 +1665,12 @@
 [09, 00, 65, 2a, 00, 6a, 2c, 02, 01, 02, 03]
 ```
 
+- dark room
+- object 0x2a @ (5,6)
+- object 0x2c @ (10,6)
+- push block gated door 0x01
+- push block gated door 0x03
+
 ### Room 36
 
  ***(6, 6) @ 552ed***
@@ -1559,6 +1698,10 @@
 ```
 [e1, 48, 02, 01, 58, 79, 5d, 2e, 81, 01, 01, 03, 05, 19]
 ```
+
+- unknown object 0xe1 [48, 2, 1, 58, 79, 5d, 2e, 81, 1]
+- open door 0x03
+- bombable door 0x19
 
 ### Room 37
 
@@ -1588,6 +1731,14 @@
 [09, 01, 00, 05, 1b, 00, 21, 4b, c6, 21, 00, 00, ae, 4b, c6, ae, 00]
 ```
 
+- dark room
+- open door 0x00
+- bombable door 0x1b
+- object 0x4b @ (1,2)
+- fireball spawner 0x00 @ (1,2)
+- object 0x4b @ (14,10)
+- fireball spawner 0x00 @ (14,10)
+
 ### Room 38
 
  ***(7, 0) @ 5532e***
@@ -1615,6 +1766,7 @@
 ```
 []
 ```
+
 
 ### Room 39
 
@@ -1644,6 +1796,7 @@
 []
 ```
 
+
 ### Room 3A
 
  ***(7, 2) @ 55344***
@@ -1671,6 +1824,7 @@
 ```
 []
 ```
+
 
 ### Room 3B
 
@@ -1700,6 +1854,7 @@
 []
 ```
 
+
 ### Room 3C
 
  ***(7, 4) @ 5535a***
@@ -1727,6 +1882,7 @@
 ```
 []
 ```
+
 
 ### Room 3D
 
@@ -1756,6 +1912,7 @@
 []
 ```
 
+
 ### Room 3E
 
  ***(7, 6) @ 55370***
@@ -1784,6 +1941,7 @@
 []
 ```
 
+
 ### Room 3F
 
  ***(7, 7) @ 5537b***
@@ -1811,4 +1969,5 @@
 ```
 []
 ```
+
 
