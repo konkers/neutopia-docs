@@ -2,20 +2,27 @@
 
 ## Object table IDs
 
-| Object ID | Args  | Description             |
-| --------- | ----- | ----------------------- |
-| **`00`**  | YX ID | Interactive Object      |
-| **`01`**  | DD    | Open door               |
-| **`02`**  | ??    | Push block gated door   |
-| **`03`**  | DD    | Enemy gated door        |
-| **`05`**  | ??    | Bombable door           |
-| **`06`**  | YX ID | Push block gated object |
-| **`07`**  | YX ID | Enemy gated object      |
-| **`09`**  |       | Dark room               |
-| **`0A`**  | ??    | Boss entrance door      |
-| **`C0`**  | YX ?? | Sword block swords      |
-| **`C1`**  | YX ?? | Ghost spawner           |
-| **`C6`**  | YX ?? | Fireball spawner        |
+| Object ID | Args                 | Description             |
+| --------- | -------------------- | ----------------------- |
+| **`00`**  | YX ID                | Interactive object      |
+| **`01`**  | DD                   | Open door               |
+| **`02`**  | ??                   | Push block gated door   |
+| **`03`**  | DD                   | Enemy gated door        |
+| **`05`**  | ??                   | Bombable door           |
+| **`06`**  | YX ID                | Push block gated object |
+| **`07`**  | YX ID                | Enemy gated object      |
+| **`08`**  | YX ID                | Bell gated object       |
+| **`09`**  |                      | Dark room               |
+| **`0A`**  | ??                   | Boss entrance door      |
+| **`0C`**  | YX ??                | Burnable object         |
+| **`81`**  |                      | Falcon boots required   |
+| **`9a`**  | YX ?? ?? ?? ??       | NPC                     |
+| **`BD`**  | YX ??                | Ouch rope segment       |
+| **`BF`**  | YX ??                | Arrow launcher          |
+| **`C0`**  | YX ??                | Sword block swords      |
+| **`C1`**  | YX ??                | Ghost spawner           |
+| **`C6`**  | YX ??                | Fireball spawner        |
+| **`DA`**  | ?? ?? ?? ?? ?? ?? ?? | Shop Item               |
 
 ## Unknown codes
 
@@ -35,6 +42,17 @@
 - Area 6 room 24 `e1, 48, 02, 02, e5, 57, 58, 2e, 81, 01`
 
 The second byte (48) is the location of the old man
+
+### 0d
+
+`0d` is always followed by a two bytes. They are often the same.
+
+### f4
+
+`f4` only appears in area 0c rooms 3e and 3f.
+
+- room 3e: `f4, a7, 2, 3, 40, 43`
+- room 3f: `f4, 8, 2, 0, 39, 43`
 
 ## To verify
 
