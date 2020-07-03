@@ -6,6 +6,7 @@
 |-|-|
 | Area data table pointer | 53d91 |
 | Room order table pointer | 501e6 |
+| Chest table pointer | 504c2 |
 
 ## Room Map/Order
 
@@ -18,7 +19,20 @@
 | 4 | [7f](#room-20) | [7f](#room-21) | [3a](#room-22) | [7f](#room-23) | [30](#room-24) | [7f](#room-25) | [00](#room-26) | [7f](#room-27) |
 | 5 | [7f](#room-28) | [1f](#room-29) | [7d](#room-2a) | [1c](#room-2b) | [7f](#room-2c) | [7f](#room-2d) | [46](#room-2e) | [7f](#room-2f) |
 | 6 | [7f](#room-30) | [7f](#room-31) | [7f](#room-32) | [00](#room-33) | [40](#room-34) | [32](#room-35) | [00](#room-36) | [7f](#room-37) |
-| 7 | [7f](#room-38) | [7f](#room-39) | [7f](#room-3a) | [7f](#room-3b) | [7f](#room-3c) | [43](#room-3d) | [7f](#room-3e) | [7f](#room-3f) |## Rooms
+| 7 | [7f](#room-38) | [7f](#room-39) | [7f](#room-3a) | [7f](#room-3b) | [7f](#room-3c) | [43](#room-3d) | [7f](#room-3e) | [7f](#room-3f) |
+## Chests
+
+| index | item id | arg | text | ?? |
+|-------|---------|-----|------|----|
+| 0 | 09 | 04 | 53 | 66 |
+| 1 | 17 | 01 | 97 | 41 |
+| 2 | 10 | 01 | 8b | 41 |
+| 3 | 11 | 01 | 85 | 41 |
+| 4 | 01 | 01 | d4 | 66 |
+| 5 | 18 | 01 | 97 | 41 |
+| 6 | 0a | 04 | 62 | 79 |
+| 7 | 10 | 01 | 8b | 41 |
+## Rooms
 
 ### Room 00
 
@@ -51,7 +65,7 @@
 - dark room
 - object 0x26 @ (14,6)
 - object 0x44 @ (1,6)
-- unknown object 0x0d [ff, ff]
+- hidden room [ff, ff]
 
 ### Room 01
 
@@ -84,7 +98,7 @@
 - dark room
 - object 0x26 @ (7,10)
 - object 0x44 @ (8,2)
-- unknown object 0x0d [ff, ff]
+- hidden room [ff, ff]
 
 ### Room 02
 
@@ -494,7 +508,7 @@
 - push block gated object 0x24 @ (14,2)
 - push block gated door 0x00
 - bombable door 0x19
-- unknown object 0x0d [14, 14]
+- hidden room [14, 14]
 
 ### Room 0E
 
@@ -777,7 +791,7 @@
 - dark room
 - open door 0x02
 - object 0x24 @ (14,2)
-- unknown object 0x0d [14, 14]
+- hidden room [14, 14]
 
 ### Room 17
 
@@ -1149,7 +1163,7 @@
 - dark room
 - object 0x24 @ (1,10)
 - open door 0x00
-- unknown object 0x0d [14, 14]
+- hidden room [14, 14]
 
 ### Room 23
 
@@ -1215,7 +1229,7 @@
 - fireball spawner 0x00 @ (11,1)
 - boss door 0x68
 - object 0x24 @ (7,10)
-- unknown object 0x0d [14, 14]
+- hidden room [14, 14]
 
 ### Room 25
 

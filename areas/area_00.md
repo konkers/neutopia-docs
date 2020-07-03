@@ -6,6 +6,7 @@
 |-|-|
 | Area data table pointer | 5054e |
 | Room order table pointer | 50066 |
+| Chest table pointer | 5044e |
 
 ## Room Map/Order
 
@@ -18,7 +19,20 @@
 | 4 | [20](#room-20) | [21](#room-21) | [22](#room-22) | [23](#room-23) | [24](#room-24) | [25](#room-25) | [26](#room-26) | [27](#room-27) |
 | 5 | [28](#room-28) | [29](#room-29) | [2a](#room-2a) | [2b](#room-2b) | [2c](#room-2c) | [2d](#room-2d) | [2e](#room-2e) | [2f](#room-2f) |
 | 6 | [30](#room-30) | [31](#room-31) | [32](#room-32) | [33](#room-33) | [34](#room-34) | [35](#room-35) | [36](#room-36) | [37](#room-37) |
-| 7 | [38](#room-38) | [39](#room-39) | [3a](#room-3a) | [3b](#room-3b) | [3c](#room-3c) | [3d](#room-3d) | [3e](#room-3e) | [3f](#room-3f) |## Rooms
+| 7 | [38](#room-38) | [39](#room-39) | [3a](#room-3a) | [3b](#room-3b) | [3c](#room-3c) | [3d](#room-3d) | [3e](#room-3e) | [3f](#room-3f) |
+## Chests
+
+| index | item id | arg | text | ?? |
+|-------|---------|-----|------|----|
+| 0 | 11 | 01 | 85 | 41 |
+| 1 | 10 | 01 | 8b | 41 |
+| 2 | 09 | 02 | 91 | 41 |
+| 3 | 12 | 01 | 97 | 41 |
+| 4 | 00 | 04 | a3 | 41 |
+| 5 | 00 | 04 | 15 | 43 |
+| 6 | 11 | 01 | 85 | 41 |
+| 7 | 08 | 02 | 9d | 41 |
+## Rooms
 
 ### Room 00
 

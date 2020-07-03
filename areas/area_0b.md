@@ -6,6 +6,7 @@
 |-|-|
 | Area data table pointer | 54b6f |
 | Room order table pointer | 50266 |
+| Chest table pointer | 504ee |
 
 ## Room Map/Order
 
@@ -18,7 +19,20 @@
 | 4 | [7f](#room-20) | [61](#room-21) | [62](#room-22) | [00](#room-23) | [00](#room-24) | [63](#room-25) | [64](#room-26) | [65](#room-27) |
 | 5 | [7f](#room-28) | [35](#room-29) | [5e](#room-2a) | [5f](#room-2b) | [00](#room-2c) | [4f](#room-2d) | [5f](#room-2e) | [60](#room-2f) |
 | 6 | [7f](#room-30) | [58](#room-31) | [59](#room-32) | [5a](#room-33) | [5b](#room-34) | [5c](#room-35) | [7f](#room-36) | [5d](#room-37) |
-| 7 | [7f](#room-38) | [7f](#room-39) | [7f](#room-3a) | [7f](#room-3b) | [7f](#room-3c) | [7f](#room-3d) | [7f](#room-3e) | [7f](#room-3f) |## Rooms
+| 7 | [7f](#room-38) | [7f](#room-39) | [7f](#room-3a) | [7f](#room-3b) | [7f](#room-3c) | [7f](#room-3d) | [7f](#room-3e) | [7f](#room-3f) |
+## Chests
+
+| index | item id | arg | text | ?? |
+|-------|---------|-----|------|----|
+| 0 | 19 | 01 | 74 | 79 |
+| 1 | 11 | 01 | 85 | 41 |
+| 2 | 10 | 01 | 8b | 41 |
+| 3 | 01 | 01 | c5 | 79 |
+| 4 | 00 | 04 | d7 | 79 |
+| 5 | 03 | 01 | 6e | 79 |
+| 6 | 00 | 08 | 9f | 7a |
+| 7 | 00 | 04 | a3 | 41 |
+## Rooms
 
 ### Room 00
 
@@ -50,7 +64,7 @@
 
 - object 0x26 @ (8,2)
 - object 0x44 @ (7,10)
-- unknown object 0x0d [ff, ff]
+- hidden room [ff, ff]
 
 ### Room 01
 
@@ -82,7 +96,7 @@
 
 - object 0x26 @ (8,10)
 - object 0x44 @ (7,2)
-- unknown object 0x0d [ff, ff]
+- hidden room [ff, ff]
 
 ### Room 02
 
@@ -115,7 +129,7 @@
 - dark room
 - object 0x26 @ (14,6)
 - object 0x44 @ (1,6)
-- unknown object 0x0d [ff, ff]
+- hidden room [ff, ff]
 
 ### Room 03
 
@@ -147,7 +161,7 @@
 
 - object 0x26 @ (14,6)
 - object 0x44 @ (1,6)
-- unknown object 0x0d [ff, ff]
+- hidden room [ff, ff]
 
 ### Room 04
 
@@ -179,7 +193,7 @@
 
 - object 0x26 @ (7,2)
 - object 0x44 @ (8,10)
-- unknown object 0x0d [ff, ff]
+- hidden room [ff, ff]
 
 ### Room 05
 
@@ -211,7 +225,7 @@
 
 - object 0x26 @ (1,6)
 - object 0x44 @ (14,6)
-- unknown object 0x0d [ff, ff]
+- hidden room [ff, ff]
 
 ### Room 06
 
@@ -272,7 +286,7 @@
 
 - object 0x4c @ (8,2)
 - object 0x26 @ (8,9)
-- unknown object 0x0d [7, 7]
+- hidden room [7, 7]
 
 ### Room 08
 
@@ -899,7 +913,7 @@
 ```
 
 - dark room
-- unknown object 0x0d [1c, 1c]
+- hidden room [1c, 1c]
 
 ### Room 1C
 
@@ -932,7 +946,7 @@
 - unknown object 0xe1 [28, 2, 10, 5c, 79, 5d, 2e, 81, 1]
 - enemy gated door 0x06
 - object 0x24 @ (7,2)
-- unknown object 0x0d [1c, 1c]
+- hidden room [1c, 1c]
 
 ### Room 1D
 
@@ -968,7 +982,7 @@
 - swords 0x00 @ (10,6)
 - push block gated door 0x00
 - object 0x24 @ (7,10)
-- unknown object 0x0d [1c, 1c]
+- hidden room [1c, 1c]
 
 ### Room 1E
 
@@ -1119,7 +1133,7 @@
 - object 0x2c @ (11,9)
 - open door 0x01
 - push block gated object 0x24 @ (2,3)
-- unknown object 0x0d [1c, 1c]
+- hidden room [1c, 1c]
 
 ### Room 22
 
@@ -1154,7 +1168,7 @@
 - enemy gated door 0x01
 - enemy gated door 0x03
 - enemy gated object 0x24 @ (13,9)
-- unknown object 0x0d [1c, 1c]
+- hidden room [1c, 1c]
 
 ### Room 23
 
@@ -1257,7 +1271,7 @@
 - push block gated object 0x24 @ (2,9)
 - open door 0x01
 - bombable door 0x1a
-- unknown object 0x0d [1c, 1c]
+- hidden room [1c, 1c]
 
 ### Room 26
 
@@ -1325,7 +1339,7 @@
 - unknown object 0x0b [47, 2a, 2]
 - object 0x61 @ (3,4)
 - object 0x24 @ (13,9)
-- unknown object 0x0d [1c, 1c]
+- hidden room [1c, 1c]
 
 ### Room 28
 
@@ -1391,7 +1405,7 @@
 - object 0x2b @ (12,8)
 - enemy gated object 0x24 @ (13,9)
 - enemy gated door 0x02
-- unknown object 0x0d [1c, 1c]
+- hidden room [1c, 1c]
 
 ### Room 2A
 
@@ -1424,7 +1438,7 @@
 - dark room
 - object 0x4e @ (2,3)
 - object 0x24 @ (13,9)
-- unknown object 0x0d [1c, 1c]
+- hidden room [1c, 1c]
 
 ### Room 2B
 
@@ -1495,7 +1509,7 @@
 - swords 0x00 @ (2,9)
 - object 0x24 @ (13,9)
 - boss door 0x68
-- unknown object 0x0d [1c, 1c]
+- hidden room [1c, 1c]
 
 ### Room 2D
 
@@ -1563,7 +1577,7 @@
 - object 0x2a @ (7,7)
 - enemy gated object 0x24 @ (8,7)
 - bombable door 0x18
-- unknown object 0x0d [1c, 1c]
+- hidden room [1c, 1c]
 
 ### Room 2F
 
@@ -1597,7 +1611,7 @@
 - open door 0x02
 - enemy gated object 0x24 @ (3,9)
 - enemy gated object 0x25 @ (12,9)
-- unknown object 0x0d [1c, 1c]
+- hidden room [1c, 1c]
 
 ### Room 30
 
