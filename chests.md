@@ -5,6 +5,7 @@
 | 1 | 1 | green potion |
 | 2 | 1 | firewand |
 | 3 | 1 | sky bell |
+| 4 | 1 | wings |
 | 5 | 1 | moonbeam moss |
 | 5 | 2 | moonbeam moss level 2 (no different than level 1) |
 | 6 | 1 | magic ring |
