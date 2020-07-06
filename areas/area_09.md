@@ -22,16 +22,16 @@
 | 7 | [7f](#room-38) | [7f](#room-39) | [7f](#room-3a) | [7f](#room-3b) | [7f](#room-3c) | [43](#room-3d) | [7f](#room-3e) | [7f](#room-3f) |
 ## Chests
 
-| index | item id | arg | text | ?? |
-|-------|---------|-----|------|----|
-| 0 | 09 | 04 | 53 | 66 |
-| 1 | 17 | 01 | 97 | 41 |
-| 2 | 10 | 01 | 8b | 41 |
-| 3 | 11 | 01 | 85 | 41 |
-| 4 | 01 | 01 | d4 | 66 |
-| 5 | 18 | 01 | 97 | 41 |
-| 6 | 0a | 04 | 62 | 79 |
-| 7 | 10 | 01 | 8b | 41 |
+| index | item id | arg | text | ?? | item name |
+|-------|---------|-----|------|----|-----------|
+| 0 | 09 | 04 | 65 | 9f | Strongest Armor |
+| 1 | 17 | 01 | 97 | 51 | Crypt 6 Medallion |
+| 2 | 10 | 01 | 8b | 51 | Crystal Ball |
+| 3 | 11 | 01 | 85 | 51 | Crypt Key |
+| 4 | 01 | 01 | e6 | 9f | Medicine |
+| 5 | 18 | 01 | 97 | 51 | Crypt 7 Medallion |
+| 6 | 0a | 04 | 38 | c8 | Strongest Shield |
+| 7 | 10 | 01 | 8b | 51 | Crystal Ball |
 ## Rooms
 
 ### Room 00
@@ -1504,10 +1504,10 @@
 #### Object Table
 
 ```
-[e1, 48, 02, 05, 6f, 66, 5b, 2e, 81, 01, 01, 02, 05, 19]
+[e1, 48, 02, 05, 81, 9f, 5b, 2e, 81, 01, 01, 02, 05, 19]
 ```
 
-- unknown object 0xe1 [48, 2, 5, 6f, 66, 5b, 2e, 81, 1]
+- unknown object 0xe1 [48, 2, 5, 81, 9f, 5b, 2e, 81, 1]
 - open door 0x02
 - bombable door 0x19
 

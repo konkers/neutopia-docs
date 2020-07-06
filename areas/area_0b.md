@@ -22,16 +22,16 @@
 | 7 | [7f](#room-38) | [7f](#room-39) | [7f](#room-3a) | [7f](#room-3b) | [7f](#room-3c) | [7f](#room-3d) | [7f](#room-3e) | [7f](#room-3f) |
 ## Chests
 
-| index | item id | arg | text | ?? |
-|-------|---------|-----|------|----|
-| 0 | 19 | 01 | 74 | 79 |
-| 1 | 11 | 01 | 85 | 41 |
-| 2 | 10 | 01 | 8b | 41 |
-| 3 | 01 | 01 | c5 | 79 |
-| 4 | 00 | 04 | d7 | 79 |
-| 5 | 03 | 01 | 6e | 79 |
-| 6 | 00 | 08 | 9f | 7a |
-| 7 | 00 | 04 | a3 | 41 |
+| index | item id | arg | text | ?? | item name |
+|-------|---------|-----|------|----|-----------|
+| 0 | 19 | 01 | 4a | c8 | Crypt 8 Medallion |
+| 1 | 11 | 01 | 85 | 51 | Crypt Key |
+| 2 | 10 | 01 | 8b | 51 | Crystal Ball |
+| 3 | 01 | 01 | 9b | c8 | Medicine |
+| 4 | 00 | 04 | ad | c8 | 4 bombs |
+| 5 | 03 | 01 | 44 | c8 | Sky Bell |
+| 6 | 00 | 08 | 75 | c9 | 8 bombs |
+| 7 | 00 | 04 | a3 | 51 | 4 bombs |
 ## Rooms
 
 ### Room 00
@@ -583,11 +583,11 @@
 #### Object Table
 
 ```
-[05, 19, e1, 48, 02, 01, e9, 79, 47, 2a, 08, 01]
+[05, 19, e1, 48, 02, 01, bf, c8, 47, 2a, 08, 01]
 ```
 
 - bombable door 0x19
-- unknown object 0xe1 [48, 2, 1, e9, 79, 47, 2a, 8, 1]
+- unknown object 0xe1 [48, 2, 1, bf, c8, 47, 2a, 8, 1]
 
 ### Room 12
 
@@ -940,10 +940,10 @@
 #### Object Table
 
 ```
-[e1, 28, 02, 10, 5c, 79, 5d, 2e, 81, 01, 03, 06, 00, 27, 24, 0d, 1c, 1c]
+[e1, 28, 02, 10, 32, c8, 5d, 2e, 81, 01, 03, 06, 00, 27, 24, 0d, 1c, 1c]
 ```
 
-- unknown object 0xe1 [28, 2, 10, 5c, 79, 5d, 2e, 81, 1]
+- unknown object 0xe1 [28, 2, 10, 32, c8, 5d, 2e, 81, 1]
 - enemy gated door 0x06
 - object 0x24 @ (7,2)
 - hidden room [1c, 1c]
@@ -1852,10 +1852,10 @@
 #### Object Table
 
 ```
-[e1, 48, 02, 01, 58, 79, 5d, 2e, 81, 01, 01, 03, 05, 19]
+[e1, 48, 02, 01, 2e, c8, 5d, 2e, 81, 01, 01, 03, 05, 19]
 ```
 
-- unknown object 0xe1 [48, 2, 1, 58, 79, 5d, 2e, 81, 1]
+- unknown object 0xe1 [48, 2, 1, 2e, c8, 5d, 2e, 81, 1]
 - open door 0x03
 - bombable door 0x19
 

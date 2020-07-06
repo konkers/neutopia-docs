@@ -22,16 +22,16 @@
 | 7 | [7f](#room-38) | [7f](#room-39) | [7f](#room-3a) | [00](#room-3b) | [36](#room-3c) | [7f](#room-3d) | [7f](#room-3e) | [7f](#room-3f) |
 ## Chests
 
-| index | item id | arg | text | ?? |
-|-------|---------|-----|------|----|
-| 0 | 16 | 01 | 97 | 41 |
-| 1 | 08 | 03 | 59 | 66 |
-| 2 | 11 | 01 | 85 | 41 |
-| 3 | 10 | 01 | 8b | 41 |
-| 4 | 00 | 04 | ac | 66 |
-| 5 | 01 | 01 | c2 | 66 |
-| 6 | 00 | 04 | 44 | 67 |
-| 7 | 09 | 04 | 53 | 66 |
+| index | item id | arg | text | ?? | item name |
+|-------|---------|-----|------|----|-----------|
+| 0 | 16 | 01 | 97 | 51 | Crypt 5 Medallion |
+| 1 | 08 | 03 | 6b | 9f | Steel Sword |
+| 2 | 11 | 01 | 85 | 51 | Crypt Key |
+| 3 | 10 | 01 | 8b | 51 | Crystal Ball |
+| 4 | 00 | 04 | be | 9f | 4 bombs |
+| 5 | 01 | 01 | d4 | 9f | Medicine |
+| 6 | 00 | 04 | 56 | a0 | 4 bombs |
+| 7 | 09 | 04 | 65 | 9f | Strongest Armor |
 ## Rooms
 
 ### Room 00
@@ -722,10 +722,10 @@
 #### Object Table
 
 ```
-[e1, 48, 02, 04, 6b, 66, 5a, 2e, 81, 01, 05, 1a, 05, 1b, 05, 19]
+[e1, 48, 02, 04, 7d, 9f, 5a, 2e, 81, 01, 05, 1a, 05, 1b, 05, 19]
 ```
 
-- unknown object 0xe1 [48, 2, 4, 6b, 66, 5a, 2e, 81, 1]
+- unknown object 0xe1 [48, 2, 4, 7d, 9f, 5a, 2e, 81, 1]
 - bombable door 0x1a
 - bombable door 0x1b
 - bombable door 0x19
@@ -845,13 +845,13 @@
 #### Object Table
 
 ```
-[00, 8b, 2f, 00, 84, 2a, 02, 0a, e1, 48, 02, 01, 1f, 65, 5a, 2e, 81, 01]
+[00, 8b, 2f, 00, 84, 2a, 02, 0a, e1, 48, 02, 01, 31, 9e, 5a, 2e, 81, 01]
 ```
 
 - object 0x2f @ (11,8)
 - object 0x2a @ (4,8)
 - push block gated door 0x0a
-- unknown object 0xe1 [48, 2, 1, 1f, 65, 5a, 2e, 81, 1]
+- unknown object 0xe1 [48, 2, 1, 31, 9e, 5a, 2e, 81, 1]
 
 ### Room 19
 
